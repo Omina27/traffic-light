@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    background-image: url(./../image/istockphoto-1277468083-640x640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.box {
+    margin: 0;
+    width: 150px;
+    margin: 50px auto;
+    padding: 2px;
+    border: 1px solid #444;
+    background-color: #000;
+    margin-left: 90%;
+    margin-top: 280px;
+
+}
+
+.box__inner {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid #444;
+    margin: 0 auto;
+}
+
+.box__red {
+    background-color: red;
+}
+
+.box__yellow {
+    background-color: yellow;
+}
+
+.box__green {
+    background-color: green;
+}
+
+.box__off {
+    opacity: 0.1;
+}
+
+/* .car{
+    margin-left: 600px;
+    transition: all 5s ease;
+} */
+.car__go{
+    transform: translateX(600px);
+    transition: all 10s ease;
+}
+
+
+
